@@ -9,14 +9,14 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #ffcd42;
+  --primary-color: #181818;
   --secondary-color: #ffd35c;
   --bg-primary: #ffffff;
   --text-color: #222222;
   --text-color-two: #ffffff;
-  --bg-secondary: #000000;
+  --bg-secondary: #181818;
   --card-background: #f4f4f4;
-  --bg-secondary-two: #111111;
+  --bg-secondary-two: #222222;
 
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 
@@ -34,7 +34,7 @@
 [data-theme="dark"] {
   --primary-color: #ffcd42;
   --secondary-color: #ffd35c;
-  --bg-primary: #000000;
+  --bg-primary: #222222;
   --text-color: #ffffff;
   --text-color-two: #222222;
   --bg-secondary: #ffffff;
@@ -44,7 +44,7 @@
 }
 
 html {
-  font-size: 100%;
+  font-size: 95%;
   scroll-behavior: smooth;
 }
 
@@ -141,14 +141,14 @@ body {
 }
 
 .profile-image {
-  width: 150px;
+  width: 200px;
   border-radius: 50%;
 }
 .division {
   width: 100%;
   height: 2px;
   background-color: var(--card-background);
-  margin: 5.5rem 0;
+  margin: 1rem 0;
 }
 /* Projects */
 #projects {
@@ -160,6 +160,7 @@ body {
 #projects .btn {
   align-self: center;
   margin: 2rem 0;
+  color: #fafafa;
 }
 
 .project {
@@ -196,7 +197,7 @@ body {
 
 /* Footer */
 #footer {
-  background: #111111;
+  background: #1d1d1d;
 }
 
 #footer .container {
